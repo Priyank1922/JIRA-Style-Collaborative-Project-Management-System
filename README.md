@@ -152,19 +152,19 @@ The system maintains relationships between the major entities:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-| Technology                 | Purpose                  |
-| ---------------------------| -------------------------|
-| ☕ Java                    | Backend Programming      |
-| 🌱 Spring Boot             | Backend Framework        |
-| 🌐 Spring Web              | REST API Development     |
-| 🗄️ Spring Data JPA         | Database Operations      |
-| 🔗 Hibernate               | ORM / Entity Mapping     |
-| 🛢️ MySQL / Database        | Data Storage             |
-| 📮 Postman                 | API Testing              |
-| 🔧 Maven                   | Dependency Management    |
-| 💻 Git & GitHub            | Version Control          |
+| Technology                 | Purpose                |
+| ---------------------------| -----------------------|
+|  Java                    | Backend Programming      |
+|  Spring Boot             | Backend Framework        |
+|  Spring Web              | REST API Development     |
+|  Spring Data JPA         | Database Operations      |
+|  Hibernate               | ORM / Entity Mapping     |
+|  MySQL / Database        | Data Storage             |
+|  Postman                 | API Testing              |
+|  Maven                   | Dependency Management    |
+|  Git & GitHub            | Version Control          |
 
 > Update the database name above if your project uses PostgreSQL or another database.
 
