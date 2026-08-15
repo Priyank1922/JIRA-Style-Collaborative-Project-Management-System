@@ -3,6 +3,8 @@ package com.example.Jira.Entity;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import org.hibernate.envers.Audited;
+
 import com.example.Jira.Enum.Priority;
 import com.example.Jira.Enum.TicketStatus;
 import com.example.Jira.Enum.TicketType;
@@ -30,7 +32,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-
+@Audited			
 public class Ticket {
 
 	@Id

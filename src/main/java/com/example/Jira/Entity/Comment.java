@@ -2,6 +2,8 @@ package com.example.Jira.Entity;
 
 import java.time.LocalDateTime;
 
+import org.hibernate.envers.Audited;
+
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import jakarta.persistence.Column;
@@ -21,7 +23,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-
+@Audited
 public class Comment {
 
 	@Id

@@ -3,6 +3,8 @@ package com.example.Jira.Entity;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import org.hibernate.envers.Audited;
+
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
@@ -24,7 +26,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-
+@Audited
 public class Board {
 
 	@Id
